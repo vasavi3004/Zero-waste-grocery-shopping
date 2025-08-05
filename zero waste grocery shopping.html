@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zero Waste Grocery Shopping</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #2e7d32;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .description {
+            padding: 15px;
+            text-align: center;
+            background: white;
+            margin-bottom: 20px;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .product img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .product h3 {
+            margin: 10px 0 5px;
+            font-size: 18px;
+        }
+
+        .price {
+            color: #e53935;
+            font-weight: bold;
+        }
+
+        .old-price {
+            text-decoration: line-through;
+            color: gray;
+            font-size: 14px;
+            margin-left: 5px;
+        }
+
+        button {
+            background-color: #2e7d32;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #1b5e20;
+        }
+
+        footer {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Zero Waste Grocery Shopping</h1>
+</header>
+
+<div class="description">
+    <p>Buy unsold or near-expiry groceries at discounted prices. Help reduce waste and save money!</p>
+</div>
+
+<div class="products">
+    <div class="product">
+        <img src="https://via.placeholder.com/200x150" alt="Apple">
+        <h3>Fresh Apples</h3>
+        <p><span class="price">₹50</span> <span class="old-price">₹80</span></p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="https://via.placeholder.com/200x150" alt="Bread">
+        <h3>Whole Wheat Bread</h3>
+        <p><span class="price">₹25</span> <span class="old-price">₹40</span></p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="https://via.placeholder.com/200x150" alt="Milk">
+        <h3>Organic Milk (1L)</h3>
+        <p><span class="price">₹35</span> <span class="old-price">₹50</span></p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="https://via.placeholder.com/200x150" alt="Vegetables">
+        <h3>Mixed Vegetables</h3>
+        <p><span class="price">₹60</span> <span class="old-price">₹90</span></p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="https://via.placeholder.com/200x150" alt="Bananas">
+        <h3>Bananas (1 Dozen)</h3>
+        <p><span class="price">₹40</span> <span class="old-price">₹60</span></p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="https://via.placeholder.com/200x150" alt="Tomatoes">
+        <h3>Fresh Tomatoes</h3>
+        <p><span class="price">₹30</span> <span class="old-price">₹50</span></p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="https://via.placeholder.com/200x150" alt="Potatoes">
+        <h3>Potatoes (1kg)</h3>
+        <p><span class="price">₹20</span> <span class="old-price">₹35</span></p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="https://via.placeholder.com/200x150" alt="Rice">
+        <h3>Basmati Rice (1kg)</h3>
+        <p><span class="price">₹90</span> <span class="old-price">₹120</span></p>
+        <button>Add to Cart</button>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Zero Waste Grocery Shopping | Save Food, Save Money</p>
+</footer>
+
+</body>
+</html>
